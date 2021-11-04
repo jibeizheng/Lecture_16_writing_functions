@@ -52,7 +52,7 @@ Only kinda great.
 Let's try again.
 
 
-```{r}
+```{r, error = TRUE}
 z_scores = function(x){
   
   if(!is.numeric(x)) {
